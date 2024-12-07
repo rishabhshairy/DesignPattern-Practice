@@ -1,0 +1,7 @@
+package com.rshairy.lldQuestions.TicTacToe.model;
+
+public class PlayingPieceO extends PlayingPiece {
+    public PlayingPieceO() {
+        super(PieceType.O);
+    }
+}
