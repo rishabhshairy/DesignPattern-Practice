@@ -1,0 +1,5 @@
+Do not change already tested and live code
+This violated Open Closed Principle
+
+One way to achieve it is that , create an Interface , and let new classes implement it in their own way
+by doing this we will not interfere with already working code

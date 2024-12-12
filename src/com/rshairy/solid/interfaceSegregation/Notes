@@ -1,0 +1,7 @@
+Interface Segmented Principle
+
+Interfaces should be designed in such a way, that Client should not implement
+un-necessary functions they do not need
+
+If we see the follow package
+we solved the issue by implementing multiple interfaces whi

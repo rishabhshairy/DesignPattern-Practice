@@ -1,0 +1,6 @@
+if Class B is a subtype of Class A, then we should be able to replace Object of A with B ,
+without breaking the behavior of the program
+
+In simple, words,
+
+Subclasses should extend the capability of Parent Class and not narrow it down.

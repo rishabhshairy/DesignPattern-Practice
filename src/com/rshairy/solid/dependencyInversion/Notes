@@ -1,0 +1,18 @@
+Dependency Inversion Principle
+
+Classes should depend on interfaces rather than concrete classes
+
+Example not following this principle
+
+class MacBook {
+ private final WiredKeyBoard keyb;
+ private final WiredMouse mouse;
+
+ public MacBook() {
+    keyb = new WiredKeyBoard;
+    mouse = new WiredMouse;
+ }
+}
+
+Here in above example, we have tightly coupled MacBook with wired keyboard and wired mouse
+we will not be able to enhance it
