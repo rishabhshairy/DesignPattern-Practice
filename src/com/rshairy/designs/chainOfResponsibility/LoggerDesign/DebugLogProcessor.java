@@ -1,4 +1,4 @@
-package com.rshairy.solid.chainOfResponsibility.LoggerDesign;
+package com.rshairy.designs.chainOfResponsibility.LoggerDesign;
 
 public class DebugLogProcessor extends LogProcessor {
 

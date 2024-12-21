@@ -1,4 +1,4 @@
-package com.rshairy.solid.chainOfResponsibility.LoggerDesign;
+package com.rshairy.designs.chainOfResponsibility.LoggerDesign;
 
 public abstract class LogProcessor {
     public static int INFO = 1;
