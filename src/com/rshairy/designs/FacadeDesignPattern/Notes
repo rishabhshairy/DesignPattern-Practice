@@ -1,0 +1,9 @@
+When and Why?
+
+When we have to HIDE system complexity from the Client
+
+
+E.g. Car
+
+When client Press Accelerator, it does not know how it functions to increase speed
+When client Press Brake, it does not know the System behind it
