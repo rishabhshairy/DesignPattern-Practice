@@ -8,9 +8,9 @@ public class OrdinaryVehicle implements VehicleFactory {
     @Override
     public Vehicle getVehicle(String brand) {
         switch (brand) {
-            case "AUDI":
+            case "SUZUKI":
                 return new SuzukiSwift();
-            case "BMW":
+            case "HYUNDAI":
                 return new Hyundai();
             default:
                 return null;
