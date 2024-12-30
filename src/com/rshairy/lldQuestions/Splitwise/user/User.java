@@ -10,6 +10,7 @@ public class User {
     public User(String id, String name) {
         this.userId = id;
         this.name = name;
+        this.userBalanceSheet = new UserExpenseBalanceSheet();
     }
 
     public String getUserId() {

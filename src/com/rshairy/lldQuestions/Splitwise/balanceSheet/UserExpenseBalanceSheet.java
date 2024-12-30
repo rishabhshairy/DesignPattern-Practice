@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class UserExpenseBalanceSheet {
-    Map<User, Balance> userFriendBalance;
+    Map<String, Balance> userFriendBalance;
     double totalExpense;
     double totalPaymentDone;
     double totalOwe;
@@ -49,5 +49,13 @@ public class UserExpenseBalanceSheet {
 
     public void setTotalGetBack(double totalGetBack) {
         this.totalGetBack = totalGetBack;
+    }
+
+    public Map<String, Balance> getUserFriendBalance() {
+        return userFriendBalance;
+    }
+
+    public void setUserFriendBalance(Map<String, Balance> userFriendBalance) {
+        this.userFriendBalance = userFriendBalance;
     }
 }

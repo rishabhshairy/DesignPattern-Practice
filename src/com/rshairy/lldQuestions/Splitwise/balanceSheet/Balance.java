@@ -8,17 +8,15 @@ public class Balance {
         return amountOwe;
     }
 
-    public Balance setAmountOwe(double amountOwe) {
+    public void setAmountOwe(double amountOwe) {
         this.amountOwe = amountOwe;
-        return this;
     }
 
     public double getAmountGetBack() {
         return amountGetBack;
     }
 
-    public Balance setAmountGetBack(double amountGetBack) {
+    public void setAmountGetBack(double amountGetBack) {
         this.amountGetBack = amountGetBack;
-        return this;
     }
 }

@@ -60,7 +60,6 @@ public class SplitwiseApp {
 
     private void steupUserAndGroups() {
         addUsersToApp();
-
         // Create a group by user1 and user2
         User user1 = userController.getUser("U1001");
         groupController.createGroup("GRP1001", "Office Outing", user1);
