@@ -1,0 +1,9 @@
+The Bridge pattern attempts to solve this problem by switching from inheritance to the object composition.
+What this means is that you extract one of the dimensions into a separate class hierarchy,
+so that the original classes will reference an object of the new hierarchy,
+instead of having all of its state and behaviors within one class.
+
+
+When to apply -->
+Use the Bridge pattern when you want to divide and organize a monolithic class
+that has several variants of some functionality (for example, if the class can work with various database servers).

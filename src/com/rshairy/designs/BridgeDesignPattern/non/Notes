@@ -1,0 +1,6 @@
+The problem here is
+if we want to have a different breathing mechanism , we need to extend the class
+and the code will get over loaded.
+
+e.g. --> As birds breathe though Narse and exhale through mouth, we need to add Bird Class and implement breathe()
+method
