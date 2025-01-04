@@ -1,0 +1,11 @@
+We are taking example of hotel management system
+
+We have 3 type of rooms
+- Single
+- Double
+- Deluxe
+
+Lets have 3 types of operation
+- Reserve Room
+- Room Maintenance
+- Room Pricing
