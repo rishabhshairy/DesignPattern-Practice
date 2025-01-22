@@ -1,5 +1,6 @@
 package com.rshairy.lldQuestions.InventoryOrderManagement.inventoryModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ProductCategory {
@@ -7,6 +8,10 @@ public class ProductCategory {
     String categoryName;
     List<Product> products;
     Double price;
+
+    public ProductCategory() {
+        products = new ArrayList<>();
+    }
 
     public int getCategoryId() {
         return categoryId;

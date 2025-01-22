@@ -2,6 +2,7 @@ package com.rshairy.lldQuestions.InventoryOrderManagement.user;
 
 import com.rshairy.lldQuestions.InventoryOrderManagement.inventoryModel.Address;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class User {
@@ -12,10 +13,9 @@ public class User {
     List<Integer> orderId;
 
 
-    public User(int id, String name, Cart cart) {
-        this.id = id;
-        this.name = name;
-        this.cart = cart;
+    public User() {
+        cart = new Cart();
+        orderId = new ArrayList<>();
     }
 
     public int getId() {

@@ -2,10 +2,12 @@ package com.rshairy.lldQuestions.InventoryOrderManagement.inventoryModel;
 
 public class Address {
     int pincode;
+    String city;
     String streetName;
 
-    public Address(int pincode, String streetName) {
+    public Address(int pincode, String city, String streetName) {
         this.pincode = pincode;
+        this.city = city;
         this.streetName = streetName;
     }
 

@@ -37,6 +37,7 @@ public class Order {
 
         //3. make cart empty
         if(isPaymentSuccess) {
+            System.out.println("Payment Success!!");
             user.getCart().emptyCart();
         }
         else{

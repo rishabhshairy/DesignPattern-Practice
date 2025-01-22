@@ -11,7 +11,7 @@ public class Cart {
     }
 
     public void addItem(int productCategoryId, int count) {
-        prodCatIdVsCountMap.put(productCategoryId,
+        prodCatIdVsCountMap.putIfAbsent(productCategoryId,
                 prodCatIdVsCountMap.getOrDefault(productCategoryId, 0) + 1);
     }
 
